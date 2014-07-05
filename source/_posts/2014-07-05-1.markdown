@@ -5,4 +5,6 @@ date: 2014-07-05 16:33:17 +0900
 comments: true
 categories: 
 ---
+<audio id="player2" src="http://s3-ap-northeast-1.amazonaws.com/adminsbar/media/_adminsbar-01.mp3" type="audio/mp3" controls="controls"></audio>
+
 [@con\_mame](https://twitter.com/con_mame) さんと [@mineroaoki](https://twitter.com/mineroaoki) さんをゲストに、 MySQL Cluster 6.3, MySQL 5.6/5.7, MariaDB, Amazon RDS などについて話しました。
