@@ -2,9 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://adminsbar.mirakui.com/
+url: http://adminsbar.mirakui.com
 title: Admins Bar
-subtitle: A blogging framework for hackers.
+subtitle: DevOps podcast by mirakui
 author: mirakui
 simple_search: https://www.google.com/search
 description:
