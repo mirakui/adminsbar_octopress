@@ -26,6 +26,9 @@
 {% else %}
   <header>
   <div class="jumbotron">
+    <div class="site-title">
+      <a href="{{ site.root }}">{{ site.title }}</a>
+    </div>
     <a href="{{ page.url }}">
     {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
     </a>

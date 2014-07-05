@@ -2593,6 +2593,13 @@ body.vjs-full-window {
   left: 0;
   opacity: .4;
 }
+.jumbotron .container a {
+  color: $primary-color;
+}
+.jumbotron .site-title a {
+  font-size: 40px;
+  color: $primary-color;
+}
 
 .badge {
   display: inline-block;
