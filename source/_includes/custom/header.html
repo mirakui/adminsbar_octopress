@@ -1,10 +1,12 @@
 <div class="jumbotron">
   <div class="container">
-    {% if site.title %}
-      {{ site.title }}
-    {% else %}
-      Hi. I'm {{ site.author }}.
-    {% endif %}
+    <a href="{{ site.root }}">
+      {% if site.title %}
+        {{ site.title }}
+      {% else %}
+        Hi. I'm {{ site.author }}.
+      {% endif %}
+    </a>
     <h3 class="tagline">
       {% if site.subtitle %}
         {{ site.subtitle }}
