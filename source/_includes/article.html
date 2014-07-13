@@ -37,6 +37,7 @@
 </header>
   <div class="row-fluid">
     <div class="span12">
+      {% if page.audio-src %}<div class="audio-player"><audio src="{{ page.audio-src }}" type="audio/mp3" controls="controls" preload="none"></audio></div>{% endif %}
       {{ content }}
     </div>
   </div>

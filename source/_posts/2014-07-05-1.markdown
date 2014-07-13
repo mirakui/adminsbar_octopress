@@ -8,6 +8,5 @@ audio-length: 123456
 audio-duration: "12:34"
 summary: "@con\_mame さんと @mineroaoki さんをゲストに、 MySQL Cluster 6.3, MySQL 5.6/5.7, MariaDB, Amazon RDS などについて話しました。"
 ---
-<audio id="player2" src="http://s3-ap-northeast-1.amazonaws.com/adminsbar/media/_adminsbar-01.mp3" type="audio/mp3" controls="controls"></audio>
 
 [@con\_mame](https://twitter.com/con_mame) さんと [@mineroaoki](https://twitter.com/mineroaoki) さんをゲストに、 MySQL Cluster 6.3, MySQL 5.6/5.7, MariaDB, Amazon RDS などについて話しました。
