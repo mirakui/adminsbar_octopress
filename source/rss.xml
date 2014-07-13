@@ -2,20 +2,35 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedpress="http://feedpress.it/xmlns" version="2.0">
   <channel>
     <atom:link rel="hub" href="http://pubsubhubbub.appspot.com" xmlns:atom="http://www.w3.org/2005/Atom"/>
     <title>{{ site.title | xml_escape }}</title>
     <generator>Octopress</generator>
     <link>{{ site.url }}</link>
-
-    {% for post in site.posts limit: 20 %}
+    <itunes:author>Issei Naruta</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://adminsbar.mirakui.com/images/itunes-cover.png"/>
+    <itunes:keywords>tech,technology,programming,ruby,web,mirakui,development,operations,devops,server,software</itunes:keywords>
+    <itunes:subtitle>DevOps Podcast by mirakui</itunes:subtitle>
+    <itunes:summary>DevOps関連の情報や、Webサービスのインフラ系技術について話すPodcastです。</itunes:summary>
+    <itunes:category text="Technology"/>
+    <itunes:owner>
+      <itunes:name>Issei Naruta</itunes:name>
+      <itunes:email>mimitako@gmail.com</itunes:email>
+    </itunes:owner>
+    {% for post in site.posts %}
     <item>
       <title>{{ post.title | xml_escape }}</title>
       <description>{{ post.content | expand_urls: site.url | cdata_escape }}</description>
       <link>{{ site.url }}{{ post.url }}</link>
       <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
       <guid>{{ site.url }}{{ post.id }}</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>{{ post.sumary }}</itunes:subtitle>
+      <itunes:summary>{{ post.sumary }}</itunes:summary>
+      <itunes:duration>{{ post.audio-duration }}</itunes:duration>
+      <enclosure url="{{ post.audio-src }}" type="audio/mpeg" length="{{ post.audio-length }}"/>
     </item>
     {% endfor %}
   </channel>

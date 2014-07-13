@@ -3,7 +3,10 @@ layout: post
 title: "1: MySQL in the Real World"
 date: 2014-07-05 16:33:17 +0900
 comments: true
-categories: 
+audio-src: http://s3-ap-northeast-1.amazonaws.com/adminsbar/media/adminsbar-01.mp3
+audio-length: 123456
+audio-duration: "12:34"
+summary: "@con\_mame さんと @mineroaoki さんをゲストに、 MySQL Cluster 6.3, MySQL 5.6/5.7, MariaDB, Amazon RDS などについて話しました。"
 ---
 <audio id="player2" src="http://s3-ap-northeast-1.amazonaws.com/adminsbar/media/_adminsbar-01.mp3" type="audio/mp3" controls="controls"></audio>
 
