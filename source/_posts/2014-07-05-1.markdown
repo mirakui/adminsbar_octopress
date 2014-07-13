@@ -10,3 +10,6 @@ summary: "@con\_mame さんと @mineroaoki さんをゲストに、 MySQL Cluste
 ---
 
 [@con\_mame](https://twitter.com/con_mame) さんと [@mineroaoki](https://twitter.com/mineroaoki) さんをゲストに、 MySQL Cluster 6.3, MySQL 5.6/5.7, MariaDB, Amazon RDS などについて話しました。
+<!-- more -->
+## Show Notes
+- [MySQL](http://dev.mysql.com/)
