@@ -104,3 +104,5 @@ facebook_like: true
 navigation:
 - text: Home
   url: /
+- text: RSS
+  url: /rss.xml
