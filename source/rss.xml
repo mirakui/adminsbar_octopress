@@ -10,7 +10,7 @@ layout: nil
     <link>{{ site.url }}</link>
     <itunes:author>Issei Naruta</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://adminsbar.mirakui.com/images/itunes-cover.png"/>
+    <itunes:image href="http://admins.bar/images/itunes-cover.png"/>
     <itunes:keywords>tech,technology,programming,ruby,web,mirakui,development,operations,devops,server,software</itunes:keywords>
     <itunes:subtitle>DevOps Podcast by mirakui</itunes:subtitle>
     <itunes:summary>DevOps関連の情報や、Webサービスのインフラ系技術について話すPodcastです。</itunes:summary>
