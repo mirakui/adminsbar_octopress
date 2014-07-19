@@ -3,7 +3,7 @@ layout: post
 title: "1: MySQL in the Real World"
 date: 2014-07-05 16:33:17 +0900
 comments: true
-audio-src: http://s3-ap-northeast-1.amazonaws.com/adminsbar/media/adminsbar-01.mp3
+audio-src: http://admins.bar/audio/adminsbar-01.mp3
 audio-length: 123456
 audio-duration: "12:34"
 summary: "@con\_mame さんと @mineroaoki さんをゲストに、 MySQL Cluster 6.3, MySQL 5.6/5.7, MariaDB, Amazon RDS などについて話しました。"
@@ -12,4 +12,49 @@ summary: "@con\_mame さんと @mineroaoki さんをゲストに、 MySQL Cluste
 [@con\_mame](https://twitter.com/con_mame) さんと [@mineroaoki](https://twitter.com/mineroaoki) さんをゲストに、 MySQL Cluster 6.3, MySQL 5.6/5.7, MariaDB, Amazon RDS などについて話しました。
 <!-- more -->
 ## Show Notes
-- [MySQL](http://dev.mysql.com/)
+### MySQL Cluster Calual Talks
+- [MySQL Cluster Casual Talks #2 : ATND](http://atnd.org/events/50736)
+- [yoku0825 (yoku0825) on Twitter](https://twitter.com/yoku0825)
+- このは
+  - <blockquote class="twitter-tweet" lang="en"><p>負けずにリア充こんまめさん。 <a href="https://twitter.com/hashtag/mysql_jp?src=hash">#mysql_jp</a> <a href="http://t.co/SPjdlV2y5o">pic.twitter.com/SPjdlV2y5o</a></p>&mdash; yoku0825 (@yoku0825) <a href="https://twitter.com/yoku0825/statuses/481751839394656256">June 25, 2014</a></blockquote>
+  - <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/hashtag/mysql_jp?src=hash">#mysql_jp</a> <a href="http://t.co/gBbtmfXKOT">pic.twitter.com/gBbtmfXKOT</a></p>&mdash; Ryuta Kamizono (@kamipo) <a href="https://twitter.com/kamipo/statuses/481751085015515136">June 25, 2014</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### MySQL Cluster Calual
+- [漢(オトコ)のコンピュータ道: 隙がなくなったMySQL Cluster 7.3登場！！これで勝つる。](http://nippondanji.blogspot.jp/2013/06/mysql-cluster-73.html)
+- [MySQL Cluster構築・運用バイブル　～仕組みからわかる基礎と実践のノウハウ (奥野 幹也)](http://www.amazon.co.jp/gp/product/4774150533?tag=adminsbar-22)
+  - <iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=adminsbar-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4774150533" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+### MySQL 5.6
+- 「GTID が有効だとレプリケーションエラーのスキップが面倒くさい」
+  - [MySQL5.6のちょっとした話 - まめ畑](http://d.conma.me/entry/2013/04/23/203036)
+- 「GTID は人類にはまだ早い」
+  - [MySQL Casual Talks vol.5 on Zusaar](http://www.zusaar.com/event/1086003)
+  - [MySQL5.6でGTIDを試してそっと閉じた](http://www.slideshare.net/Yuryu/mysql56gtid)
+
+### HipChat
+- HipChat の ctrl+F の挙動修正を求める投票
+  - [Ctrl+f and Ctrl+b should do 'forward-char' and 'backward-char' in OS X app – Help Center](http://help.hipchat.com/forums/138883-suggestions-ideas/suggestions/5829588-ctrl-f-and-ctrl-b-should-do-forward-char-and-ba)
+
+### MySQL 5.7
+- [漢(オトコ)のコンピュータ道: MySQLは立ち止まらない・・・MySQL 5.7開発版登場！](http://nippondanji.blogspot.jp/2013/05/mysqlmysql-57.html)
+- [@do\_aki](https://twitter.com/do_aki) さんのマルチマスタレプリケーション芸
+  - [続マスタN対スレーブ1レプリケーションの作り方](http://www.slideshare.net/do_aki/n1-12603071)
+  - [MySQL Casual Talks vol.4 で マスタn対スレーブ1レプリケーション と mysql\_config\_editor について話したこと - do\_akiの徒然想記](http://d.hatena.ne.jp/do_aki/20130419/1366340829)
+
+### MariaDB
+- [Welcome to MariaDB! - MariaDB](https://mariadb.org/)
+- MariaDB の名前の由来
+  - 長女 My（ミィ）から MySQL、長男 Max から MaxDB、次女 Maria から MariaDB を名づけた
+  - [Michael Widenius - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Michael_Widenius)
+
+### Fabric
+- [MySQL :: MySQL Fabric](http://www.mysql.com/products/enterprise/fabric.html)
+- [MySQLのシャーディングを実現する「MySQL Fabric」をリリース、米オラクル － Publickey](http://www.publickey1.jp/blog/14/mysqlmysql_fabric.html)
+
+### Amazon RDS
+- [Amazon RDS（リレーショナルデータベースサービス Amazon Relational Database Service） | アマゾン ウェブ サービス（AWS 日本語）](http://aws.amazon.com/jp/rds/)
+- [Q: メンテナンスウィンドウとは何ですか?ソフトウェアメンテナンス時に私のデータは利用できますか?](http://aws.amazon.com/jp/rds/faqs/#12)
+
+### Redshift
+- AWS Summit Tokyo 2014 での青木さんの発表
+  - [Amazon Redshiftによるリアルタイム分析サービスの構築 - SSSSLIDE](http://sssslide.com/www.slideshare.net/mineroaoki/at-aws-summit-tokyo-2014)
