@@ -4,7 +4,7 @@ title: "1: MySQL in the Real World"
 date: 2014-07-05 16:33:17 +0900
 comments: true
 audio-src: http://admins.bar/audio/adminsbar-01.mp3
-audio-length: 62445842
+audio-length: 25066698
 audio-duration: "52:02"
 summary: "@con\_mame さんと @mineroaoki さんをゲストに、 MySQL Cluster 6.3, MySQL 5.6/5.7, MariaDB, Amazon RDS などについて話しました。"
 ---
