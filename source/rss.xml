@@ -16,7 +16,7 @@ layout: nil
     <itunes:summary>DevOps関連の情報や、Webサービスのインフラ系技術について話すPodcastです。</itunes:summary>
     <itunes:category text="Technology"/>
     <itunes:owner>
-      <itunes:name>Issei Naruta</itunes:name>
+      <itunes:name>mirakui</itunes:name>
       <itunes:email>mimitako@gmail.com</itunes:email>
     </itunes:owner>
     {% for post in site.posts %}
