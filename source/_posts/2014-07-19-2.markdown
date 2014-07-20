@@ -1,0 +1,41 @@
+---
+layout: post
+title: "2: Togetter Operations"
+date: 2014-07-20 22:31:11 +0900
+comments: true
+audio-src: http://admins.bar/audio/adminsbar-02.mp3
+audio-length: 27081053
+audio-duration: "56:14"
+summary: "@yositosi さんをゲストに迎え、Togetter の運用の歴史、海外版、サービスのエコシステムなどについてお聞きしました。"
+---
+[@yositosi](https://twitter.com/yositosi) さんをゲストに迎え、Togetter の運用の歴史、海外版、サービスのエコシステムなどについてお聞きしました。
+
+今回から導入した新しいマイクにまだ慣れてなくて、一部音割れしてしまいました。ご容赦ください。
+
+<!-- more -->
+## Show Notes
+- Togetter
+  - [ツイッターをまとめよう - Togetterまとめ](http://togetter.com/)
+- Wantedly での求人
+  - [月間700万UUのTogetterをさらに盛り上げてくれる人募集！ - トゥギャッター株式会社の求人 - Wantedly](https://www.wantedly.com/projects/8097)
+- 海外版 Togetter "Chirpstory"
+  - [Create stories from Tweets. - Chirpstory](http://chirpstory.com/)
+- 古参ヘビーユーザ rkanbe さん
+  - [Ryuji(@rkanbe)さんのまとめ(2407) - Togetterまとめ](http://togetter.com/id/rkanbe)
+- Twitter にジャスティン・ビーバー用のラックがある？
+  - [Twitterにはジャスティン・ビーバー専用のサーバがあるらしい。とりあえず数ラック : ギズモード・ジャパン](http://www.gizmodo.jp/2010/09/justin-bieber-has-dedicated-servers-at-twitter.html)
+  - <blockquote class="twitter-tweet" lang="en"><p>&quot;At any moment, Justin Bieber uses 3% of our infrastructure. Racks of servers are dedicated to him. - A guy who works at Twitter</p>&mdash; dustin curtis (@dcurtis) <a href="https://twitter.com/dcurtis/statuses/23192425566">September 7, 2010</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+- 式年遷宮
+  - [神宮式年遷宮 - Wikipedia](http://ja.wikipedia.org/wiki/%E7%A5%9E%E5%AE%AE%E5%BC%8F%E5%B9%B4%E9%81%B7%E5%AE%AE)
+  - [クックパッドでのVPC移行について](http://www.slideshare.net/winebarrel/vpc-14281906)
+  - Immutable Infrastracture の効果を説明する例として、伊勢神宮の式年遷宮がしばしば用いられる
+    - [式年遷宮Infrastracture - さよならインターネット](http://blog.kenjiskywalker.org/blog/2013/08/11/shikinen-sengoo-infrastracture/)
+    - [「Immutable Infrastructure パネルディスカッション〜オレにも一言言わせろ」 #jawsdays – JAWS DAYS 2014 参加レポート Vol.08 ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/jawsdays2014-08/)
+    - [Here's a 1300 Year Old Solution to Resilience - Rebuild, Rebuild, Rebuild - High Scalability -](http://highscalability.com/blog/2014/4/23/heres-a-1300-year-old-solution-to-resilience-rebuild-rebuild.html)
+- AWS の大幅値下げ
+  - [Amazon Web Services ブログ: 【AWS発表】42回目の値下げ！EC2、S3、RDS、ElastiCache、そしてElastic MapReduceも！](http://aws.typepad.com/aws_japan/2014/03/aws-price-reduction-42-ec2-s3-rds-elasticache-and-elastic-mapreduce.html)
+- Google Cloud Platform の不思議技術
+  - [Load Balancing - Google Compute Engine — Google Developers](https://developers.google.com/compute/docs/load-balancing/)
+  - [GoogleCloudPlatform - GoogleのHTTPロードバランサーの破壊力があり過ぎる #gcpja - Qiita](http://qiita.com/kazunori279/items/8d2417c8510021c697e7)
+  - RightScale によるライブマイグレーションの検証
+    - [Google Compute Engine Live Migration Passes the Test](http://www.rightscale.com/blog/cloud-industry-insights/google-compute-engine-live-migration-passes-test)
