@@ -1,0 +1,124 @@
+---
+layout: post
+title: "3: Fluentd"
+#date: 2014-07-20 22:31:11 +0900
+comments: true
+audio-src: http://admins.bar/audio/adminsbar-03.mp3
+#audio-length: 27081053
+#audio-duration: "56:14"
+#summary: ""
+---
+
+<!-- more -->
+## Show Notes
+### Fluentd
+- "2万行の conf"
+  - <blockquote class="twitter-tweet" lang="en"><p>うちの fluentd.conf は２万行あるぞ</p>&mdash; そのっつ (SEO Naotoshi) (@sonots) <a href="https://twitter.com/sonots/status/383418560887799809">September 27, 2013</a></blockquote>
+  - [Shadow Server on Fluentd at Fluentd Casual Talks #3](http://www.slideshare.net/sonots/shadow-fluentdcasualtalks-20131213)
+    - DeNA での Fluentd の運用規模、クラスタ構成についての記述がある
+- [sonots/haikanko](https://github.com/sonots/haikanko)
+  - [HaikankoというFluentdクラスタ管理ツールの話をしてきた(1) #fluentdcasual - sonots:blog](http://blog.livedoor.jp/sonots/archives/23590458.html)
+- "Rails のログを /dev/null に捨てる"
+  - [[Ruby] 例えば、Rails の標準ログを止める - sonots:blog](http://blog.livedoor.jp/sonots/archives/38927788.html)
+- [tagomoris/fluent-agent-lite](https://github.com/tagomoris/fluent-agent-lite)
+  - Perl 製の軽量 fluent agent 実装。
+- [sonots/fluent-plugin-grepcounter](https://github.com/sonots/fluent-plugin-grepcounter)
+- [Yohoushi - for allusers who love graphs!](http://yohoushi.github.io/yohoushi/jp/)
+  - [yohoushi/yohoushi](https://github.com/yohoushi/yohoushi)
+  - [Yohoushi という分散 GrowthForecast グラフツールを作りました - sonots:blog](http://blog.livedoor.jp/sonots/archives/29646713.html)
+- [uken/fluent-plugin-elasticsearch](https://github.com/uken/fluent-plugin-elasticsearch)
+- [sonots/fluent-plugin-measure\_time](https://github.com/sonots/fluent-plugin-measure_time)
+- [Kibana](http://www.elasticsearch.org/overview/kibana/)
+
+### Go
+- [fujiwara/fluent-agent-hydra](https://github.com/fujiwara/fluent-agent-hydra)
+  - [in\_tail+(in|out)\_forwardができるログエージェントfluent-agent-hydraをGoで書いている - 酒日記 はてな支店](http://d.hatena.ne.jp/sfujiwara/20140822/1408675405)
+- ISUCON
+  - [優勝賞金100万円！今年もやります 第４回 ISUCON 開催と日程のお知らせ #isucon : ISUCON公式Blog](http://isucon.net/archives/38857424.html)
+  - この収録後、参考実装リストに PHP を復活させました
+    - [ISUCONにPHPが帰ってきたぞ！！！！ - uzullaがブログ](http://uzulla.hateblo.jp/entry/2014/09/08/145206)
+- [HashiCorp](https://www.hashicorp.com/)
+  - [Packer](http://www.packer.io/)
+- [moriyoshi/ik](https://github.com/moriyoshi/ik)
+
+### Profiling
+- [Ruby プロセスを追いかけるツール９選 - sonots:blog](http://blog.livedoor.jp/sonots/archives/39380434.html)
+- [Tim Bunce / Devel-NYTProf - search.cpan.org](http://search.cpan.org/dist/Devel-NYTProf/)
+  - [Devel::NYTProf で Starlet/Starman (Plack) でうごくウェブアプリケーションのプロファイリングをおこなう方法まとめ - blog.64p.org](http://blog.64p.org/entry/2013/10/08/190604)
+- [ahiguti/gdbperl](https://github.com/ahiguti/gdbperl)
+  - [How to debug a perl script using gdb](http://www.slideshare.net/akirahiguchi/gdbperl)
+- [gunyarakun/gdbruby](https://github.com/gunyarakun/gdbruby)
+  - [CoreからRubyのバックトレースを表示するgdbruby.rbを作った](http://blog.wktk.co.jp/ja/entry/2013/10/30/gdbruby)
+- [Feature #8024: Lazy sweep を on/off するための機能 - ruby-trunk - Ruby Issue Tracking System](https://bugs.ruby-lang.org/issues/8024)
+- [Nokogiri](http://nokogiri.org/)
+- [mecab - Japanese morphological analyzer - Google Project Hosting](https://code.google.com/p/mecab/)
+- [High Performance Rails (long edition) // Speaker Deck](https://speakerdeck.com/mirakui/high-performance-rails-long-edition)
+  - [Rails アプリケーションのパフォーマンスについて RubyKaigi 2013 で発表しました - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2013/06/07/rubykaigi-high-performance-rails/)
+
+### Deploy
+- [HashWithIndifferentAccess - APIdock](http://apidock.com/rails/HashWithIndifferentAccess)
+  - Rails では多くの Hash 的なオブジェクトが、キーが Symbol でも String でもアクセスできるが、その振る舞いは HashWithIndifferentAccess が担っている。
+- [sonots/capistrano-bundle\_rsync](https://github.com/sonots/capistrano-bundle_rsync)
+  - Capistrano 3 用の rsync デプロイするためのプラグイン。とても快適
+- [vigetlabs/capistrano\_rsync\_with\_remote\_cache](https://github.com/vigetlabs/capistrano_rsync_with_remote_cache)
+  - Capistrano 2 時代の、rsync で高速デプロイするためのプラグイン
+- [moll/capistrano-rsync](https://github.com/moll/capistrano-rsync)
+  - Capistrano 3 用であるが、そのままでは動かないことで有名
+- "sora\_h が書いたデプロイシステム"
+  - [sorah/mamiya](https://github.com/sorah/mamiya)
+  - [RubyKaigi 2014 | Scalable deployments - How we deploy Rails app to 100+ hosts in a minute](http://rubykaigi.org/2014/presentation/S-ShotaFukumori)
+
+### database.yml, Balancing Databases, ActiveRecord
+- [Config::Pit - search.cpan.org](http://search.cpan.org/~satoh/Config-Pit-0.04/lib/Config/Pit.pm)
+- [DBIx::DBHResolver - search.cpan.org](http://search.cpan.org/~zigorou/DBIx-DBHResolver-0.13/lib/DBIx/DBHResolver.pm)
+- "riywo さんのスライド" (MyDNS による DB のバランシング)
+  - [Most Powerful High Availability / Load Balancing #yapcasia 2012 // Speaker Deck](https://speakerdeck.com/riywo/20120928lt)
+- [sonots/resolver\_replace](https://github.com/sonots/resolver_replace)
+  - [[Ruby] 例えば、DNS Resolver をすげかえる - sonots:blog](http://blog.livedoor.jp/sonots/archives/38822072.html)
+- [eagletmt/switch\_point](https://github.com/eagletmt/switch_point)
+- [クックパッドにおける最近のActiveRecord運用事情 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2014/08/28/194147)
+- [SQL::Translator - search.cpan.org](http://search.cpan.org/~ilmari/SQL-Translator-0.11020/lib/SQL/Translator.pm)
+- [winebarrel/ridgepole](https://github.com/winebarrel/ridgepole)
+- [mizzyのDevOps対応企業Tシャツ ∞ SUZURI](https://suzuri.jp/mizzy/76284/t-shirt/m/navy)
+  - http://instagram.com/p/r1ABcnRqZJ/
+
+### MongoDB
+- [Mongoid](http://mongoid.org/en/mongoid/index.html)
+  - ActiveRecord 風の API で MongoDB を扱うことができる gem。
+- CyberAgent での MongoDB
+  - [AmebaのMongoDB活用事例](http://www.slideshare.net/akuwano/mongo-db-14079976)
+  - [CyberAgentにおけるMongoDB](http://www.slideshare.net/akuwano/cyberagentmongodb)
+- [PostGIS — Spatial and Geographic Objects for PostgreSQL](http://postgis.net/)
+- Foursquare での MongoDB
+  - [こんなところにMongoDB！foursquare事例をご紹介：企業のIT・経営・ビジネスをつなぐ情報サイト EnterpriseZine (EZ)](http://enterprisezine.jp/dbonline/detail/4072)
+  - [FoursquareのMongoDBが機能停止](http://www.infoq.com/jp/news/2010/10/4square_mongodb_outage)
+- Parse での MongoDB
+  - [How Parse Built a Mobile Backend as a Service on AWS](http://www.slideshare.net/AmazonWebServices/how-parse-built-a-mobile-backend-as-a-service-on-aws-mbl307-aws-reinvent-2013)
+- "MongoDB や Cassandra に最適"
+  - [I2 インスタンス - Amazon Elastic Compute Cloud](http://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/i2-instances.html)
+- suzu\_v MongoDB
+
+### switch\_point - R/W Splitting, Multiple DB in ActiveRecord
+- [eagletmt/switch\_point](https://github.com/eagletmt/switch_point)
+- [tchandy/octopus](https://github.com/tchandy/octopus)
+- [kovyrin/db-charmer](https://github.com/kovyrin/db-charmer)
+- [acts\_as\_readonlyable](https://rubygems.org/gems/acts_as_readonlyable)
+
+### Job Queueing
+- [Q4M - a Message Queue for MySQL](http://q4m.github.io/)
+- [Riding Rails: Rails 4.2.0 beta1: Active Job, Deliver Later, Adequate Record, Web Console](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)
+
+### Connection Pooling
+- [sonots/activerecord-refresh\_connection](https://github.com/sonots/activerecord-refresh_connection)
+  - [[Ruby] 例えば、ActiveRecord の connection\_pool を止める - sonots:blog](http://blog.livedoor.jp/sonots/archives/38797925.html)
+- [コネクションプーリング無効化のためのGemを作った - so what](http://so-wh.at/entry/2014/02/15/%E3%82%B3%E3%83%8D%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%97%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E7%84%A1%E5%8A%B9%E5%8C%96%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AEGem%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F)
+- [activerecord-mysql-reconnect 0.2.0 - so what](http://so-wh.at/entry/2014/01/05/activerecord-mysql-reconnect_0.2.0)
+
+### Logging and/or Rewriting SQLs
+- [Yuji Shimada / DBIx-QueryLog - search.cpan.org](http://search.cpan.org/dist/DBIx-QueryLog/)
+- [cookpad/arproxy](https://github.com/cookpad/arproxy)
+  - [ActiveRecordが発行するSQLをフックして色々やるためのライブラリArproxyを公開しました - 昼メシ物語](http://blog.mirakui.com/entry/20120429/1335702664)
+- Perl でクエリのコメントにファイル名と行数がつくやつ
+  - [DBIx::Sunny - search.cpan.org](http://search.cpan.org/~kazeburo/DBIx-Sunny-0.15/lib/DBIx/Sunny.pm)
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
