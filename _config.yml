@@ -106,3 +106,5 @@ navigation:
   url: /
 - text: RSS
   url: /rss.xml
+- text: iTunes
+  url: https://itunes.apple.com/jp/podcast/admins-bar/id900836354
