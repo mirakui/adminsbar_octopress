@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "3: Fluentd"
-#date: 2014-07-20 22:31:11 +0900
+title: "3: Fluentd, Rails, ActiveRecord"
+date: 2014-09-13 17:20:48 +0900
 comments: true
 audio-src: http://admins.bar/audio/adminsbar-03.mp3
-#audio-length: 27081053
-#audio-duration: "56:14"
-#summary: ""
+audio-length: 54229591
+audio-duration: "1:52:47"
+summary: "DeNA の @sonots さんと @ryopeko さんに、 Fluentd や Rails、特に ActiveRecord まわりの運用ノウハウについてお聞きしました。"
 ---
+DeNA の [@sonots](https://twitter.com/sonots) さんと [@ryopeko](https://twitter.com/ryopeko) さんに、 Fluentd や Rails 、特に ActiveRecord まわりの運用ノウハウについてお聞きしました。Perl ヘビーユーザーとして有名な DeNA さんですが、 Perl エコシステムの知見が Ruby でのサービス開発・運用に生かされているお話はとても興味深かったです。
 
 <!-- more -->
 ## Show Notes
@@ -96,7 +97,6 @@ audio-src: http://admins.bar/audio/adminsbar-03.mp3
   - [How Parse Built a Mobile Backend as a Service on AWS](http://www.slideshare.net/AmazonWebServices/how-parse-built-a-mobile-backend-as-a-service-on-aws-mbl307-aws-reinvent-2013)
 - "MongoDB や Cassandra に最適"
   - [I2 インスタンス - Amazon Elastic Compute Cloud](http://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/i2-instances.html)
-- suzu\_v MongoDB
 
 ### switch\_point - R/W Splitting, Multiple DB in ActiveRecord
 - [eagletmt/switch\_point](https://github.com/eagletmt/switch_point)
