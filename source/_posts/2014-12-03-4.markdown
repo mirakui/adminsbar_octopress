@@ -8,7 +8,7 @@ audio-length: 36717728
 audio-duration: "1:16:19"
 summary: "@941 さん、@rosylilly さん、 @sora_h さんをお迎えして、ISUCON4運営の裏側について話しました。"
 ---
-@941 さん、@rosylilly さん、@sora_h さんをお迎えして、ISUCON4運営の裏側について話しました。
+[@941](https://twitter.com/941) さん、[@rosylilly](https://twitter.com/rosylilly) さん、[@sora_h](https://twitter.com/sora_h) さんをお迎えして、ISUCON4運営の裏側について話しました。
 
 <!-- more -->
 ## Show Notes
