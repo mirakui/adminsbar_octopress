@@ -1,0 +1,41 @@
+---
+layout: post
+title: "4: ISUCON4 Postmortem"
+date: 2014-12-03 22:27:05 +0900
+comments: true
+audio-src: http://admins.bar/audio/adminsbar-04.mp3
+audio-length: 36717728
+audio-duration: "1:16:19"
+summary: "@941 さん、@rosylilly さん、 @sora_h さんをお迎えして、ISUCON4運営の裏側について話しました。"
+---
+@941 さん、@rosylilly さん、@sora_h さんをお迎えして、ISUCON4運営の裏側について話しました。
+
+<!-- more -->
+## Show Notes
+- ISUCON とは
+	- [ISUCON公式Blog](http://isucon.net/)
+- ISUCON4 について
+	- [ISUCON4 まとめ : ISUCON公式Blog](http://isucon.net/archives/41252218.html)
+	- [ISUCON4 本選結果 : ISUCON公式Blog](http://isucon.net/archives/41187491.html)
+	- [サーバーとウェブアプリを高速化し、さばけるアクセス数を競う技術戦が今年も -INTERNET Watch](http://internet.watch.impress.co.jp/docs/event/20141112_675628.html)
+- @kazeburo さんが椅子を投げる
+	- [イス OR 椅子 lang:ja from:kazeburo - Twitter Search](https://twitter.com/search?q=%E3%82%A4%E3%82%B9%20OR%20%E6%A4%85%E5%AD%90%20lang%3Aja%20from%3Akazeburo&src=typd)
+- ISUCON3 に出て惨敗したチーム「白金動物園」
+	- [#isucon 3 参加記 - diary.sorah](http://diary.sorah.jp/2013/11/09/isucon3)
+- ISUCON4 予選の心残り「workload バグ」
+	- [ISUCON4 本選出場の一部基準変更についての詳細 : ISUCON公式Blog](http://isucon.net/archives/40434032.html)
+	- [予選第1日に参加していただいた皆様へ](https://gist.github.com/mirakui/7fa156268c2105957c26)
+- ISUCON Makers Casual Talks
+	- [ISUCON Makers Casual Talks : ATND](https://atnd.org/events/59168)
+- ISUCON4 本選の詳細
+- Redis の永続化方式、AOF と RDB
+	- [Redis Persistence – Redis](http://redis.io/topics/persistence)
+	- [» Redisにおけるデータの永続化 TECHSCORE BLOG](http://www.techscore.com/blog/2013/05/08/redis-persistence/)
+- ISUCON4 予選二日目 締め切り数分前にスコアを伸ばした「fujiwara組」
+	- [ISUCON4 オンライン予選 二日目の結果発表 : ISUCON公式Blog](http://isucon.net/archives/40435073.html)
+	- ![baa15feb.png (1074×332)](http://livedoor.blogimg.jp/isucon/imgs/b/a/baa15feb.png)
+	- 最後にスコアが跳ね上がっているのが fujiwara組
+- 本選を競技として成立させてくれた「生ハム原木」
+	- @tagomoris: [ISUCON4 いってきた＆勝ってきた！ #isucon - tagomorisのメモ置き場](http://d.hatena.ne.jp/tagomoris/20141110/1415592196)
+	- @kazeburo: [ISUCON4 で優勝してきました！！！ #isucon - blog.nomadscafe.jp](http://blog.nomadscafe.jp/2014/11/isucon4-isucon.html)
+	- @sugyan: [#isucon 2014で優勝しました - すぎゃーんメモ](http://d.hatena.ne.jp/sugyan/20141108/1415453570)
