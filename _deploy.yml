@@ -1,0 +1,8 @@
+method: s3
+site_dir: public
+bucket_name: admins.bar
+remote_path: /
+region: ap-northeast-1
+verbose: true
+incremental: true
+delete: true
