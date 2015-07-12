@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 group :development do
+  gem 'octopress', '~> 3.0'
   gem 'rake', '~> 10.0'
   gem 'jekyll', '~> 2.0'
   gem 'jekyll-page-hooks', '~> 1.2'
