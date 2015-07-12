@@ -3,7 +3,7 @@ layout: post
 title: "2: Togetter Operations"
 date: 2014-07-20 22:31:11 +0900
 comments: true
-audio-src: http://admins.bar/audio/adminsbar-02.mp3
+audio-src: http://cdn.admins.bar/audio/adminsbar-02.mp3
 audio-length: 27081053
 audio-duration: "56:14"
 summary: "@yositosi さんをゲストに迎え、Togetter の運用の歴史、海外版、サービスのエコシステムなどについてお聞きしました。"

@@ -3,7 +3,7 @@ layout: post
 title: "4: ISUCON4 Postmortem"
 date: 2014-12-03 22:27:05 +0900
 comments: true
-audio-src: http://admins.bar/audio/adminsbar-04.mp3
+audio-src: http://cdn.admins.bar/audio/adminsbar-04.mp3
 audio-length: 36717728
 audio-duration: "1:16:19"
 summary: "@941 さん、@rosylilly さん、 @sora_h さんをお迎えして、ISUCON4運営の裏側について話しました。"
