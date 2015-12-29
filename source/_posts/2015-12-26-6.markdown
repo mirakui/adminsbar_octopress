@@ -1,0 +1,27 @@
+---
+layout: post
+title: "6: Mackerel (songmu)"
+date: 2015-07-12 17:05:11 +0900
+comments: true
+audio-src: http://cdn.admins.bar/audio/adminsbar-06.mp3
+audio-length: 29898097
+audio-duration: "1:02:06"
+summary: "@songmu さんをお迎えして、"
+---
+
+<!-- more -->
+## Show Notes
+- [Mackerel](https://mackerel.io/ja/)
+- [motemen/blogsync](https://github.com/motemen/blogsync)
+  - [blogsync ではてなブログのエントリをローカルと同期する - 詩と創作・思索のひろば](http://motemen.hatenablog.com/entry/2014/12/22/blogsync)
+- [Twirl](https://www.playframework.com/documentation/ja/2.3.x/ScalaTemplates)
+- [mirakui/activerecord-mysql-index-hint](https://github.com/mirakui/activerecord-mysql-index-hint)
+- [Google for Work Japan 公式ブログ/ [GCP] クラウドの料金体系を理解する](http://googleforwork-japan.blogspot.jp/2015/02/gcp.html)
+  - 標準構成として Cassandra が書かれている事例
+- [持続的なプラットフォームのための難しい決断 | Twitter Blogs](https://blog.twitter.com/ja/2015/buttons)
+- [twitter/snowflake](https://github.com/twitter/snowflake)
+- [ISUCON5 本選問題の公開と講評 / ISUCON公式Blog](http://isucon.net/archives/45905117.html)
+- [ISUCON5で優勝してきました | おそらくはそれさえも平凡な日々](http://www.songmu.jp/riji/entry/2015-11-03-isucon5.html)
+- [cookpad/expeditor](http://github.com/cookpad/expeditor)
+- [AnyEvent](http://search.cpan.org/~mlehmann/AnyEvent-7.11/lib/AnyEvent.pm)
+- [ISUCON5本戦にてスコアトップの18万点でfailしました - Qiita](http://qiita.com/y_matsuwitter/items/a3c3713c25cdbbab2b17)
