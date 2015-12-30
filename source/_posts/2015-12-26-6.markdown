@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "6: Mackerel (songmu)"
-date: 2015-07-12 17:05:11 +0900
+date: 2015-12-30 21:03:01 +0900
 comments: true
 audio-src: http://cdn.admins.bar/audio/adminsbar-06.mp3
-audio-length: 29898097
-audio-duration: "1:02:06"
-summary: "@songmu さんをお迎えして、"
+audio-length: 29559968
+audio-duration: "01:01:24"
+summary: "@songmu さんをお迎えして、Mackerel のアーキテクチャや ISUCON5 の優勝についてお話を伺いました。"
 ---
+
+[@songmu](https://twitter.com/songmu) さんをお迎えして、Mackerel のアーキテクチャや ISUCON5 の優勝についてお話を伺いました。
 
 <!-- more -->
 ## Show Notes
