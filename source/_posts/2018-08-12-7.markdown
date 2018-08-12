@@ -1,0 +1,24 @@
+---
+layout: post
+title: "7: Water Hammer (itkq)"
+date: 2018-08-12 22:22:12 +0900
+comments: true
+audio-src: http://cdn.admins.bar/audio/adminsbar-07.mp3
+audio-length: 36504987
+audio-duration: "01:15:52"
+summary: "@itkq さんをお迎えして、マイクロサービス時代のWebインフラや、スピリチュアルエンジニアリング、競女などについて話しました。"
+---
+
+クックパッドの [@itkq](https://twitter.com/itkq) さんをお迎えして、マイクロサービス時代のWebインフラや、スピリチュアルエンジニアリング、競女などについて話しました。
+
+<!-- more -->
+## Show Notes
+- [Service Mesh and Cookpad – Envoy Proxy](https://blog.envoyproxy.io/service-mesh-and-cookpad-ba4d5d915dbd)
+- [Web System Architecture 研究会 (WSA研)](https://websystemarchitecture.hatenablog.jp/)
+  - [サービスのパフォーマンス数値と 依存関係を用いたサービス同士の 協調スケール構想 / Web System Architecture #1 - Speaker Deck](https://speakerdeck.com/itkq/web-system-architecture-number-1)
+- [O'Reilly Japan - SRE サイトリライアビリティエンジニアリング](https://www.oreilly.co.jp/books/9784873117911/)
+- [スピリチュアルエンジニアリング入門 - 昼メシ物語](http://blog.mirakui.com/entry/20100301/1267464280)
+- [高橋李依の今晩なにつくろ？(ぴよちゃん) - ニコニコチャンネル:生活](http://ch.nicovideo.jp/nanitsuku)
+  - [高橋李依の今晩なにつくろ？ on Twitter: "今日はお料理友達のクックパッドたん(@cookpad_pr)と秘密の料理研究会をしてますぴよ🐣❤ どんな料理が出来るかお楽しみにぴよ〜🍴… "](https://twitter.com/nanitsuku_info/status/992680202898583552)
+- [TVアニメ『競女!!!!!!!!』公式サイト](http://keijollllllll.com/)
+- [水撃作用 - Wikipedia](https://ja.wikipedia.org/wiki/%E6%B0%B4%E6%92%83%E4%BD%9C%E7%94%A8)
