@@ -4,8 +4,8 @@ title: "7: Water Hammer (itkq)"
 date: 2018-08-12 22:22:12 +0900
 comments: true
 audio-src: http://cdn.admins.bar/audio/adminsbar-07.mp3
-audio-length: 36504987
-audio-duration: "01:15:52"
+audio-length: 36648974
+audio-duration: "01:16:10"
 summary: "@itkq さんをお迎えして、マイクロサービス時代のWebインフラや、スピリチュアルエンジニアリング、競女などについて話しました。"
 ---
 
